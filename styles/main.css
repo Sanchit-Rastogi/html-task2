@@ -1,0 +1,132 @@
+body{
+    background-image: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 200px;
+    margin: 0px;
+    font-family: 'Carme', sans-serif;
+}
+
+.navbar-container{
+    background-color:  rgba(15, 33, 57, 0.8);
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.navbar-container .navbar{
+    border: #3B5E8C 1px solid;
+    height: 75px;
+}
+
+.navbar .navbar-links{
+    float: right;
+    padding: 25px 0px;
+}
+
+.navbar a{
+    color: #96C4E4;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 20px;
+}
+
+.navbar img{
+    position: relative;
+    top: -30px;
+    left: 10px;
+}
+
+.navbar .vl{
+    border-left: 2px solid white;
+    margin: 0px 7px 0px 4px;
+    display: inline;
+}
+
+.upper-bar{
+    width: 350px;
+    background-color: #3B5E8C;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+}
+
+.upper-bar .vl{
+    border-left: 2px solid #96C4E4;
+    margin: 0px 7px 0px 4px;
+    display: inline;
+}
+
+.upper-bar a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.big-text{
+    background-color: rgba(00, 00, 00, 0.25); 
+    padding: 40px 20px;
+}
+
+.big-text p{
+    font-size: 48px;
+    color: #FFF;
+    margin: 0px;
+    letter-spacing: 1.2px;
+}
+
+.content{
+    background-color: rgba(15, 33, 57, 0.8);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .content-tile{
+    width: 30%;
+    color: #FFF;
+    display: inline-grid;
+}
+
+.content-tile img{
+    width: 100%;
+}
+
+.content-tile p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.content-tile a{
+    color: #96C4E4;
+    font-weight: 700;
+}
+
+.footer{
+    background-color: #28416D;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p{
+    display: inline;
+    margin: 0px;
+    color: rgba(360, 360, 360, 0.75);
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.footer a{
+    display: inline;
+    color: white;
+    margin: 0px 5px;
+}
+
+.footer .vl{
+    border-left: 2px solid #96C4E4;
+    margin: 0px 7px 0px 4px;
+    display: inline;
+}
