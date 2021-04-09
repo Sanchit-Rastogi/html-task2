@@ -1,0 +1,40 @@
+.big-text{
+    background-color: rgba(00, 00, 00, 0.25); 
+    padding: 20px 30px;
+}
+
+.big-text p{
+    font-size: 36px;
+    color: #FFF;
+    margin: 0px;
+    letter-spacing: 8px;
+}
+
+.content{
+    background-color: rgba(15, 33, 57, 0.8);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .content-tile{
+    width: 30%;
+    color: #FFF;
+    display: inline-grid;
+}
+
+.content-tile img{
+    width: 100%;
+}
+
+.content-tile p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.content-tile a{
+    color: #96C4E4;
+    font-weight: 700;
+    font-size: 16px;
+}
+

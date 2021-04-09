@@ -1,5 +1,5 @@
 .content{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .content .service-tile1{
@@ -43,6 +43,7 @@
 
 .service-tile2 p {
     color: white;
+    font-size: 14px;
 }
 
 .service-tile2 .contact-container{
@@ -51,7 +52,7 @@
 }
 
 .service-tile2 .contact-box{
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 .contact-box p{
@@ -63,7 +64,7 @@
 }
 
 button{
-    background-image: linear-gradient(to right, #00556A 0%, #01273A 100%);
+    background-image: linear-gradient(to bottom, #00556A 0%, #01273A 100%);
     color: #A7C7F1;
     border: 1px solid #14566E;
     padding: 3px 7px;

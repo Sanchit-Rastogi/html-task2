@@ -2,44 +2,50 @@ body{
     background-image: url("/images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0px 200px;
-    margin: 0px;
+    margin: 0% 20%;
     font-family: 'Carme', sans-serif;
 }
 
 .navbar-container{
     background-color:  rgba(15, 33, 57, 0.8);
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 5px;
 }
 
 .navbar-container .navbar{
     border: #3B5E8C 1px solid;
-    height: 75px;
+    height: 50px;
 }
 
 .navbar .navbar-links{
     float: right;
-    padding: 25px 0px;
+    padding: 15px 0px;
 }
 
 .navbar a{
     color: #96C4E4;
     font-weight: 600;
     text-decoration: none;
-    padding: 0px 15px;
-    font-size: 20px;
+    padding: 0px 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.navbar-links a:hover{
+    background-color: #3B5E8C;
+    border-radius: 5px;
 }
 
 .navbar img{
     position: relative;
     top: -30px;
     left: 10px;
+    width: 175px;
+    height: 125px;
 }
 
-.navbar .vl{
-    border-left: 2px solid white;
-    margin: 0px 7px 0px 4px;
+.navbar .white-vl{
+    border-right: 2px solid white;
     display: inline;
 }
 
@@ -64,43 +70,11 @@ body{
     font-size: 14px;
 }
 
-.big-text{
-    background-color: rgba(00, 00, 00, 0.25); 
-    padding: 40px 20px;
-}
-
-.big-text p{
-    font-size: 48px;
-    color: #FFF;
-    margin: 0px;
-    letter-spacing: 1.2px;
-}
-
 .content{
     background-color: rgba(15, 33, 57, 0.8);
-    padding: 30px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
-}
-
-.content .content-tile{
-    width: 30%;
-    color: #FFF;
-    display: inline-grid;
-}
-
-.content-tile img{
-    width: 100%;
-}
-
-.content-tile p{
-    text-align: justify;
-    font-size: 18px;
-}
-
-.content-tile a{
-    color: #96C4E4;
-    font-weight: 700;
 }
 
 .footer{
@@ -123,6 +97,7 @@ body{
     display: inline;
     color: white;
     margin: 0px 5px;
+    font-size: 14px;
 }
 
 .footer .vl{
